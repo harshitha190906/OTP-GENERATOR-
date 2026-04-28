@@ -1,4 +1,5 @@
 **OTP Generator using Python**
+
 This project is an implementation of an OTP-based authentication system built using Python. It generates a random OTP and sends it to the user’s email using the SMTP library. The user is then prompted to enter the OTP for verification.
 
 **Features:**
@@ -17,10 +18,13 @@ This project is an implementation of an OTP-based authentication system built us
 
 
 **to run successfully**
+
 App Password is used to securely allow the Python application to send emails without exposing the main Gmail account password.
 
 
 **Gmail App Password Setup**
+
+
 1.Go to https://myaccount.google.com
  and sign in
 2.Open Security
