@@ -5,7 +5,7 @@ import random
 otp = random.randint(1000, 9999)
 
 # Email details
-sender = "harshithabantrothu7@gmail.com"
+sender = "abc@gmail.com"
 receiver = input("Enter receiver email: ")
 
 # Email message
@@ -17,7 +17,7 @@ try:
     server.starttls()
 
     # Login using App Password
-    password = "sfgn hzqu syca cfgz"
+    password = "your_app_password_here"
     server.login(sender, password)
 
     # Send email
