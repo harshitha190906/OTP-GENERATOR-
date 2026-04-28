@@ -1,4 +1,15 @@
-OTP Generator
+**OTP Generator using Python**
+This project is an implementation of an OTP-based authentication system built using Python. It generates a random OTP and sends it to the user’s email using the SMTP library. The user is then prompted to enter the OTP for verification.
 
-This project was developed as part of an online Python Full Stack workshop. During the workshop, I gained hands-on experience in Python and foundational concepts of Artificial Intelligence.
-The OTP Generator demonstrates my understanding of Python programming by generating secure one-time passwords.
+**Features:**
+
+1.Random 4-digit OTP generation
+2.Email sending using SMTP (Gmail server)
+3.User input-based OTP verification
+4.Simple and beginner-friendly implementation
+
+**Technologies Used:**
+
+1.Python
+2.smtplib (for email sending)
+3.random module
